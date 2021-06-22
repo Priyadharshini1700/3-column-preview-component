@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/responsive-site-using-html-nd-css-jgyAETTrX)
 - Live Site URL: [ live site URL ](https://priyadharshini1700.github.io/3-column-preview-component/)
 
 ## My process
