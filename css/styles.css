@@ -1,0 +1,140 @@
+body{
+color:  hsl(0, 0%, 95%);
+font-size: 15px;
+font-family: "lexend Deca", sans-serif;
+line-height: 1.6;
+}
+.container{
+  padding:50px;
+
+}
+
+.top{
+  background-color: hsl(31, 77%, 52%);
+  padding:40px;
+  border-radius: 10px 10px 0 0;
+}
+
+.middle{
+  background-color:  hsl(184, 100%, 22%);
+  padding:40px;
+}
+.bottom{
+background-color: hsl(179, 100%, 13%);
+padding:40px;
+border-radius: 0 0 10px 10px;
+}
+
+.orange-button{
+  background-color: hsl(0, 0%, 95%);
+  width:50%;
+  color:hsl(31, 77%, 52%);
+  padding:10px 10px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 10px;
+  font-family:"lexend Deca",sans-serif;
+}
+.orange-button:hover{
+  background-color: hsl(31, 77%, 52%);
+border: solid 1px;
+border-color: hsl(0, 0%, 95%);
+color:hsl(0, 0%, 95%);
+}
+.blue-button{
+  background-color: hsl(0, 0%, 95%);
+  width:50%;
+  color:hsl(184, 100%, 22%);
+  padding:10px 10px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 10px;
+  font-family:"lexend Deca",sans-serif;
+}
+.blue-button:hover{
+  background-color: hsl(184, 100%, 22%);
+border: solid 1px;
+border-color: hsl(0, 0%, 95%);
+color:hsl(0, 0%, 95%);
+}
+.darkblue-button{
+  background-color: hsl(0, 0%, 95%);
+  width:50%;
+  color:hsl(179, 100%, 13%);
+  padding:10px 10px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 10px;
+  font-family:"lexend Deca",sans-serif;
+}
+.darkblue-button:hover{
+  background-color: hsl(179, 100%, 13%);
+border: solid 1px;
+border-color: hsl(0, 0%, 95%);
+color:hsl(0, 0%, 95%);
+}
+h1{
+  font-family: "Big Shoulders Display", sans-serif;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+  margin-bottom: 10px;
+
+}
+p{font-family:"lexend Deca",sans-serif;
+font-weight:lighter;
+font-size: 10px;
+color:hsla(0, 0%, 100%, 0.75);
+padding:5px 0 10px 0;
+width: 90%;
+
+
+
+}
+
+
+
+
+.attribution { font-size: 11px; text-align: center;
+PADDING:10PX 30px;
+color:black; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
+@media screen and (min-width:786px) {
+  body{
+    text-align: center;
+    padding: 100px;
+    line-height: 1.6;
+  }
+  .container{
+    display: flex;
+    width:60%;
+    text-align: left;
+    margin: auto;
+    border: none;
+
+  }
+  .top{
+    border-radius: 10px 0 0 10px;
+    padding:30px 20px 30px 30px ;
+
+
+  }
+  .bottom{
+    border-radius: 0px 10px 10px 0;
+    padding:30px 20px 30px 30px;
+  }
+  .middle{
+    padding:30px 20px   30px 30px;
+
+  }
+  h1{font-size:30px;
+  }
+  p{
+    font-size: 12px;
+    padding-bottom: 50px;
+    margin-top:5px;
+  }
+  .button{
+    padding-bottom: 10px;
+  }
+}
